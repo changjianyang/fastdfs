@@ -1,9 +1,8 @@
 package com.weiyun.controller;
 
-import com.github.tobato.fastdfs.domain.fdfs.MetaData;
-import com.github.tobato.fastdfs.service.FastFileStorageClient;
+import com.weiyun.tobato.fastdfs.domain.fdfs.MetaData;
+import com.weiyun.tobato.fastdfs.service.FastFileStorageClient;
 import com.weiyun.entity.ResponseFul;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

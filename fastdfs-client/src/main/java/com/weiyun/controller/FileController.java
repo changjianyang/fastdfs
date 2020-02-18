@@ -1,8 +1,8 @@
 package com.weiyun.controller;
 
-import com.github.tobato.fastdfs.domain.fdfs.MetaData;
-import com.github.tobato.fastdfs.domain.fdfs.StorePath;
-import com.github.tobato.fastdfs.service.FastFileStorageClient;
+import com.weiyun.tobato.fastdfs.domain.fdfs.MetaData;
+import com.weiyun.tobato.fastdfs.domain.fdfs.StorePath;
+import com.weiyun.tobato.fastdfs.service.FastFileStorageClient;
 import com.weiyun.entity.ResponseFul;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

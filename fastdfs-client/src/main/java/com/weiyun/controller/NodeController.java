@@ -1,8 +1,8 @@
 package com.weiyun.controller;
 
-import com.github.tobato.fastdfs.domain.fdfs.StorageNode;
-import com.github.tobato.fastdfs.domain.fdfs.StorageState;
-import com.github.tobato.fastdfs.service.DefaultTrackerClient;
+import com.weiyun.tobato.fastdfs.domain.fdfs.StorageNode;
+import com.weiyun.tobato.fastdfs.domain.fdfs.StorageState;
+import com.weiyun.tobato.fastdfs.service.DefaultTrackerClient;
 import com.weiyun.entity.ResponseFul;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
