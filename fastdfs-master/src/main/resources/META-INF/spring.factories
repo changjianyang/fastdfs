@@ -1,2 +1,2 @@
 # Auto Configure
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.weiyun.tobato.fastdfs.FdfsClientConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.weiyun.fastdfs.FdfsClientConfig
