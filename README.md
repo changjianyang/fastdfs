@@ -5,5 +5,3 @@
 [tobato](https://github.com/tobato/FastDFS_Client/wiki)
 ### 上传文件接口
 ### 查询节点接口
-## 这是开发环境
-##这是master
