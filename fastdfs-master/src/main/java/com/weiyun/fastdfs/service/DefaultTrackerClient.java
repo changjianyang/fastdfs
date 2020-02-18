@@ -6,7 +6,6 @@ import com.weiyun.fastdfs.domain.fdfs.StorageNode;
 import com.weiyun.fastdfs.domain.fdfs.StorageNodeInfo;
 import com.weiyun.fastdfs.domain.fdfs.StorageState;
 import com.weiyun.fastdfs.domain.proto.tracker.*;
-import com.weiyun.tobato.fastdfs.domain.proto.tracker.*;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

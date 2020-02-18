@@ -1,8 +1,8 @@
 package com.weiyun.controller;
 
+import com.weiyun.entity.ResponseFul;
 import com.weiyun.fastdfs.domain.fdfs.MetaData;
 import com.weiyun.fastdfs.service.FastFileStorageClient;
-import com.weiyun.entity.ResponseFul;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,14 +26,14 @@ public class MetaDataController {
     /**
      * 查询元数据
      *
-     * @param group 組 group1
+     * @param groupName 組 group1
      * @param path  路徑 M00/61/02/rBsSEV5LjyWAPbwWAEp7JSsFfko668.zip
      * @return
      */
     @GetMapping(value = "get")
-    public String getMetaData(@RequestParam("group") String group, @RequestParam(value = "path") String path) {
+    public String getMetaData(@RequestParam("groupName") String groupName, @RequestParam(value = "path") String path) {
         try {
-            Set<MetaData> fetchMetaData = storageClient.getMetadata(group, path);
+            Set<MetaData> fetchMetaData = storageClient.getMetadata(groupName, path);
             return ResponseFul.success(fetchMetaData, "查询元数据");
         } catch (Exception e) {
             e.printStackTrace();

@@ -4,8 +4,6 @@ import com.weiyun.fastdfs.domain.conn.FdfsConnectionManager;
 import com.weiyun.fastdfs.domain.fdfs.*;
 import com.weiyun.fastdfs.domain.proto.storage.*;
 import com.weiyun.fastdfs.domain.proto.storage.enums.StorageMetadataSetType;
-import com.weiyun.tobato.fastdfs.domain.fdfs.*;
-import com.weiyun.tobato.fastdfs.domain.proto.storage.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
